@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Контакты</title>
+    <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="animationTextH1.css">
+</head>
+<body>
+    <div class="sidebar" id="sidebar">
+        <button class="closebtn" onclick="closeNav()">×</button>
+        <a href="index.html">Главная</a>
+        <a href="services.html">Услуги</a>
+        <a href="about.html">О нас</a>
+        <a href="contact.html">Контакты</a>
+    </div>
+
+    <div id="main">
+        <button class="openbtn" onclick="openNav()">☰</button>  
+                <h1 id="animated-text">Server Gate</h1>
+      
+        <h2>Контакты</h2>
+        <p>Свяжитесь с нами для получения дополнительной информации и консультаций. Мы будем рады помочь вам!</p>
+        
+        <h3>Наши контакты</h3>
+        <p><strong>Адрес:</strong> ул. Примерная, д. 123, Москва, Россия</p>
+        <p><strong>Телефон:</strong> +7 (495) 123-45-67</p>
+        <p><strong>Email:</strong> info@example.com</p>
+
+        <h3>Форма обратной связи</h3>
+        <form>
+            <label for="name">Имя:</label><br>
+            <input type="text" id="name" name="name"><br>
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email"><br>
+            <label for="message">Сообщение:</label><br>
+            <textarea id="message" name="message" rows="4" cols="50"></textarea><br><br>
+            <input type="submit" value="Отправить">
+        </form>
+    </div>
+
+    <footer>
+        <div class="footer-content">
+            <p>© 2024 Серверные услуги и разработка ПО. Все права защищены.</p>
+            <div class="social-media">
+                <a href="#">Facebook</a> |
+                <a href="#">Twitter</a> |
+                <a href="#">LinkedIn</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
